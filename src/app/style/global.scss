@@ -1,0 +1,55 @@
+/* Убираем все отступы и поля */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Убираем маркеры у списков */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Убираем подчеркивания у ссылок */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Убираем границы у форм */
+input,
+button,
+textarea,
+select {
+	border: none;
+	outline: none;
+	background: none;
+	font: inherit;
+	color: inherit;
+}
+
+/* Наследуем шрифты и цвета */
+body {
+	font-family: sans-serif;
+	background-color: #fff;
+	color: #000;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Сделать изображение адаптивным по умолчанию */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Убираем кнопочный стиль */
+button {
+	background: none;
+	cursor: pointer;
+}
